@@ -1,0 +1,346 @@
+[
+  {
+    "nombre": "Juan Pérez",
+    "email": "juan.perez@email.com",
+    "telefono": "+56 9 12345678",
+    "fecha_registro": { "$date": "2025-01-15T10:30:00Z" },
+    "membresia": {
+      "tipo": "Premium",
+      "duracion_meses": 12,
+      "precio_mensual": 45000,
+      "fecha_inicio": { "$date": "2025-01-15T10:30:00Z" },
+      "fecha_vencimiento": { "$date": "2026-01-15T23:59:59Z" },
+      "beneficios": ["Acceso 24/7", "Clases grupales ilimitadas", "Sauna", "Nutricionista"]
+    },
+    "historial_entrenamientos": [
+      {
+        "fecha": { "$date": "2026-07-10T09:15:00Z" },
+        "duracion_minutos": 75,
+        "tipo": "Cardio",
+        "calorias_quemadas": 520,
+        "instructor": "Carlos Rodríguez",
+        "nivel_intensidad": "Alto"
+      },
+      {
+        "fecha": { "$date": "2026-07-12T16:45:00Z" },
+        "duracion_minutos": 60,
+        "tipo": "Pesas",
+        "calorias_quemadas": 380,
+        "instructor": "María López",
+        "nivel_intensidad": "Medio"
+      },
+      {
+        "fecha": { "$date": "2026-07-14T08:30:00Z" },
+        "duracion_minutos": 45,
+        "tipo": "Yoga",
+        "calorias_quemadas": 250,
+        "instructor": "Laura Sánchez",
+        "nivel_intensidad": "Bajo"
+      }
+    ],
+    "objetivos": "Pérdida de peso y tonificación muscular",
+    "peso_kg": 78.5,
+    "altura_cm": 175,
+    "activo": true
+  },
+  {
+    "nombre": "Ana Gómez",
+    "email": "ana.gomez@email.com",
+    "telefono": "+56 9 23456789",
+    "fecha_registro": { "$date": "2025-02-20T14:15:00Z" },
+    "membresia": {
+      "tipo": "Básica",
+      "duracion_meses": 3,
+      "precio_mensual": 30000,
+      "fecha_inicio": { "$date": "2025-02-20T14:15:00Z" },
+      "fecha_vencimiento": { "$date": "2025-05-20T23:59:59Z" },
+      "beneficios": ["Acceso de 8:00-22:00", "Clases grupales (2 por semana)"]
+    },
+    "historial_entrenamientos": [
+      {
+        "fecha": { "$date": "2026-07-09T18:00:00Z" },
+        "duracion_minutos": 50,
+        "tipo": "Spinning",
+        "calorias_quemadas": 450,
+        "instructor": "Carlos Rodríguez",
+        "nivel_intensidad": "Alto"
+      },
+      {
+        "fecha": { "$date": "2026-07-11T19:30:00Z" },
+        "duracion_minutos": 40,
+        "tipo": "Pilates",
+        "calorias_quemadas": 200,
+        "instructor": "Laura Sánchez",
+        "nivel_intensidad": "Bajo"
+      }
+    ],
+    "objetivos": "Mantener condición física",
+    "peso_kg": 62.3,
+    "altura_cm": 165,
+    "activo": true
+  },
+  {
+    "nombre": "Carlos Martínez",
+    "email": "carlos.martinez@email.com",
+    "telefono": "+56 9 34567890",
+    "fecha_registro": { "$date": "2025-03-10T09:00:00Z" },
+    "membresia": {
+      "tipo": "Premium",
+      "duracion_meses": 18,
+      "precio_mensual": 45000,
+      "fecha_inicio": { "$date": "2025-03-10T09:00:00Z" },
+      "fecha_vencimiento": { "$date": "2026-09-10T23:59:59Z" },
+      "beneficios": ["Acceso 24/7", "Clases grupales ilimitadas", "Sauna", "Nutricionista", "Piscina"]
+    },
+    "historial_entrenamientos": [
+      {
+        "fecha": { "$date": "2026-07-08T07:00:00Z" },
+        "duracion_minutos": 90,
+        "tipo": "CrossFit",
+        "calorias_quemadas": 650,
+        "instructor": "Pablo Ramírez",
+        "nivel_intensidad": "Alto"
+      },
+      {
+        "fecha": { "$date": "2026-07-10T07:15:00Z" },
+        "duracion_minutos": 85,
+        "tipo": "CrossFit",
+        "calorias_quemadas": 620,
+        "instructor": "Pablo Ramírez",
+        "nivel_intensidad": "Alto"
+      },
+      {
+        "fecha": { "$date": "2026-07-13T06:45:00Z" },
+        "duracion_minutos": 70,
+        "tipo": "Cardio",
+        "calorias_quemadas": 500,
+        "instructor": "Carlos Rodríguez",
+        "nivel_intensidad": "Medio"
+      }
+    ],
+    "objetivos": "Competir en CrossFit regional",
+    "peso_kg": 85.0,
+    "altura_cm": 182,
+    "activo": true
+  },
+  {
+    "nombre": "Laura Sánchez",
+    "email": "laura.sanchez@email.com",
+    "telefono": "+56 9 45678901",
+    "fecha_registro": { "$date": "2025-04-05T16:20:00Z" },
+    "membresia": {
+      "tipo": "VIP",
+      "duracion_meses": 24,
+      "precio_mensual": 55000,
+      "fecha_inicio": { "$date": "2025-04-05T16:20:00Z" },
+      "fecha_vencimiento": { "$date": "2027-04-05T23:59:59Z" },
+      "beneficios": ["Acceso 24/7", "Clases grupales ilimitadas", "Sauna", "Nutricionista", "Piscina", "Entrenador personal"]
+    },
+    "historial_entrenamientos": [
+      {
+        "fecha": { "$date": "2026-07-07T10:00:00Z" },
+        "duracion_minutos": 55,
+        "tipo": "Pesas",
+        "calorias_quemadas": 340,
+        "instructor": "Mario González",
+        "nivel_intensidad": "Medio"
+      },
+      {
+        "fecha": { "$date": "2026-07-09T11:30:00Z" },
+        "duracion_minutos": 60,
+        "tipo": "Pesas",
+        "calorias_quemadas": 370,
+        "instructor": "Mario González",
+        "nivel_intensidad": "Medio"
+      },
+      {
+        "fecha": { "$date": "2026-07-12T10:15:00Z" },
+        "duracion_minutos": 45,
+        "tipo": "Yoga",
+        "calorias_quemadas": 230,
+        "instructor": "Laura Sánchez",
+        "nivel_intensidad": "Bajo"
+      },
+      {
+        "fecha": { "$date": "2026-07-14T09:00:00Z" },
+        "duracion_minutos": 80,
+        "tipo": "Cardio",
+        "calorias_quemadas": 560,
+        "instructor": "Carlos Rodríguez",
+        "nivel_intensidad": "Alto"
+      }
+    ],
+    "objetivos": "Maratón en 6 meses",
+    "peso_kg": 68.7,
+    "altura_cm": 170,
+    "activo": true
+  },
+  {
+    "nombre": "Miguel Herrera",
+    "email": "miguel.herrera@email.com",
+    "telefono": "+56 9 56789012",
+    "fecha_registro": { "$date": "2025-05-12T11:45:00Z" },
+    "membresia": {
+      "tipo": "Básica",
+      "duracion_meses": 6,
+      "precio_mensual": 30000,
+      "fecha_inicio": { "$date": "2025-05-12T11:45:00Z" },
+      "fecha_vencimiento": { "$date": "2025-11-12T23:59:59Z" },
+      "beneficios": ["Acceso de 8:00-22:00", "Clases grupales (2 por semana)"]
+    },
+    "historial_entrenamientos": [
+      {
+        "fecha": { "$date": "2026-07-09T20:00:00Z" },
+        "duracion_minutos": 40,
+        "tipo": "Cardio",
+        "calorias_quemadas": 300,
+        "instructor": "Carlos Rodríguez",
+        "nivel_intensidad": "Medio"
+      },
+      {
+        "fecha": { "$date": "2026-07-13T20:30:00Z" },
+        "duracion_minutos": 35,
+        "tipo": "Pesas",
+        "calorias_quemadas": 220,
+        "instructor": "María López",
+        "nivel_intensidad": "Bajo"
+      }
+    ],
+    "objetivos": "Rehabilitación y fortalecimiento general",
+    "peso_kg": 92.1,
+    "altura_cm": 178,
+    "activo": true
+  },
+  {
+    "nombre": "Patricia Díaz",
+    "email": "patricia.diaz@email.com",
+    "telefono": "+56 9 67890123",
+    "fecha_registro": { "$date": "2025-06-18T08:00:00Z" },
+    "membresia": {
+      "tipo": "Premium",
+      "duracion_meses": 12,
+      "precio_mensual": 45000,
+      "fecha_inicio": { "$date": "2025-06-18T08:00:00Z" },
+      "fecha_vencimiento": { "$date": "2026-06-18T23:59:59Z" },
+      "beneficios": ["Acceso 24/7", "Clases grupales ilimitadas", "Sauna", "Nutricionista"]
+    },
+    "historial_entrenamientos": [
+      {
+        "fecha": { "$date": "2026-07-08T12:00:00Z" },
+        "duracion_minutos": 60,
+        "tipo": "Zumba",
+        "calorias_quemadas": 480,
+        "instructor": "Ana Torres",
+        "nivel_intensidad": "Alto"
+      },
+      {
+        "fecha": { "$date": "2026-07-10T11:00:00Z" },
+        "duracion_minutos": 55,
+        "tipo": "Pilates",
+        "calorias_quemadas": 210,
+        "instructor": "Laura Sánchez",
+        "nivel_intensidad": "Bajo"
+      },
+      {
+        "fecha": { "$date": "2026-07-13T12:30:00Z" },
+        "duracion_minutos": 65,
+        "tipo": "Zumba",
+        "calorias_quemadas": 510,
+        "instructor": "Ana Torres",
+        "nivel_intensidad": "Alto"
+      }
+    ],
+    "objetivos": "Pérdida de peso y diversión",
+    "peso_kg": 71.2,
+    "altura_cm": 163,
+    "activo": true
+  },
+  {
+    "nombre": "Roberto Vargas",
+    "email": "roberto.vargas@email.com",
+    "telefono": "+56 9 78901234",
+    "fecha_registro": { "$date": "2025-07-22T13:30:00Z" },
+    "membresia": {
+      "tipo": "VIP",
+      "duracion_meses": 24,
+      "precio_mensual": 55000,
+      "fecha_inicio": { "$date": "2025-07-22T13:30:00Z" },
+      "fecha_vencimiento": { "$date": "2027-07-22T23:59:59Z" },
+      "beneficios": ["Acceso 24/7", "Clases grupales ilimitadas", "Sauna", "Nutricionista", "Piscina", "Entrenador personal"]
+    },
+    "historial_entrenamientos": [
+      {
+        "fecha": { "$date": "2026-07-07T06:30:00Z" },
+        "duracion_minutos": 90,
+        "tipo": "Natación",
+        "calorias_quemadas": 580,
+        "instructor": "Javier Gómez",
+        "nivel_intensidad": "Alto"
+      },
+      {
+        "fecha": { "$date": "2026-07-09T06:45:00Z" },
+        "duracion_minutos": 75,
+        "tipo": "Pesas",
+        "calorias_quemadas": 420,
+        "instructor": "Mario González",
+        "nivel_intensidad": "Medio"
+      },
+      {
+        "fecha": { "$date": "2026-07-11T07:00:00Z" },
+        "duracion_minutos": 85,
+        "tipo": "Natación",
+        "calorias_quemadas": 550,
+        "instructor": "Javier Gómez",
+        "nivel_intensidad": "Alto"
+      },
+      {
+        "fecha": { "$date": "2026-07-14T06:30:00Z" },
+        "duracion_minutos": 70,
+        "tipo": "Cardio",
+        "calorias_quemadas": 490,
+        "instructor": "Carlos Rodríguez",
+        "nivel_intensidad": "Medio"
+      }
+    ],
+    "objetivos": "Triatlón en 12 meses",
+    "peso_kg": 75.8,
+    "altura_cm": 180,
+    "activo": true
+  },
+  {
+    "nombre": "Carmen Flores",
+    "email": "carmen.flores@email.com",
+    "telefono": "+56 9 89012345",
+    "fecha_registro": { "$date": "2025-08-30T17:00:00Z" },
+    "membresia": {
+      "tipo": "Básica",
+      "duracion_meses": 1,
+      "precio_mensual": 30000,
+      "fecha_inicio": { "$date": "2025-08-30T17:00:00Z" },
+      "fecha_vencimiento": { "$date": "2025-09-30T23:59:59Z" },
+      "beneficios": ["Acceso de 8:00-22:00", "Clases grupales (2 por semana)"]
+    },
+    "historial_entrenamientos": [
+      {
+        "fecha": { "$date": "2026-07-10T15:00:00Z" },
+        "duracion_minutos": 30,
+        "tipo": "Cardio",
+        "calorias_quemadas": 180,
+        "instructor": "Carlos Rodríguez",
+        "nivel_intensidad": "Bajo"
+      },
+      {
+        "fecha": { "$date": "2026-07-13T15:30:00Z" },
+        "duracion_minutos": 25,
+        "tipo": "Pesas",
+        "calorias_quemadas": 150,
+        "instructor": "María López",
+        "nivel_intensidad": "Bajo"
+      }
+    ],
+    "objetivos": "Comenzar a hacer ejercicio",
+    "peso_kg": 65.5,
+    "altura_cm": 160,
+    "activo": false
+  }
+]
